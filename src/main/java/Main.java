@@ -4,7 +4,7 @@ import org.telegram.telegrambots.meta.generics.BotSession;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 public class Main {
-    static String botToken = "6630556008:AAEPPxusitoRkWSstX_STdKDvbnWm4XyF1U";
+    static String botToken = "";
     public static void main(String[] args) throws TelegramApiException {
         TelegramBotsApi api = new TelegramBotsApi(DefaultBotSession.class);
         BotSession botSession = api.registerBot(new Bot(botToken));
